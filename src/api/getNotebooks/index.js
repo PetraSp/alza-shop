@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const ALZA_API_URL =
-  "https://cors.bridged.cc/https://www.alza.cz/Services/RestService.svc/v2/products";
+const ALZA_API_URL = "https://www.alza.cz/Services/RestService.svc/v2/products";
 
 const getNotebooks = () =>
   axios.post(
